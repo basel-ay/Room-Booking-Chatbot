@@ -1,0 +1,70 @@
+h1 {
+    color: #F65058FF;
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+    padding: 10px;
+}
+
+hr {
+    color: #F65058FF;
+}
+
+fieldset {
+    width: 100vh;
+    border-width: 1px;
+    margin: 0px;
+    align-self: center;
+    padding: 0.5%;
+}
+
+#chat_holder {
+    overflow-y:scroll; 
+    height:70vh; 
+    width:100vh;
+}
+
+#msg1 {
+    color: #ccc;
+    font-size: 25px;
+}
+
+#paper-plane-icon{
+    color: #F65058FF;
+    position: absolute;
+    font-size: 25px;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+}
+
+.user_message {
+    padding: 1%;
+    margin-left: 60%;
+    text-align: right;
+    background-color: darkgray;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+}
+
+.user_message span{
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    color: white;
+    font-family: monospace;
+}
+
+.bot_message {
+    padding: 1%;
+    text-align: left;
+    margin-right: 30%;
+    background-color: #F65058FF;
+    border-bottom-right-radius: 3vh;
+    border-top-right-radius: 3vh;
+}
+
+.bot_message span{
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    color: white;
+    font-family: monospace;
+}

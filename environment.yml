@@ -1,0 +1,20 @@
+name: botEnv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - beautifulsoup4=4.9.3
+  - flask=2.1.0
+  - fuzzywuzzy=0.18.0
+  - nltk=3.6.2
+  - notebook=6.4.0
+  - numpy=1.20.2
+  - pandas=1.2.5
+  - parsedatetime=2.6
+  - pip=21.1.2
+  - python=3.8.8
+  - scikit-learn=0.24.2
+  - spaCy=3.2.4
+  - pip:
+    - autopep8==1.5.7
+    - pycodestyle==2.7.0
