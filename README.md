@@ -8,6 +8,10 @@ For a training data of less than 1k size, using neural nets or sequential models
 
 For having less training data was that, we were free to explore all types of classifiers like Logistic Regression, k-Nearest Neighbours, Naive Bayes, SVM, SGD Classifier and XGBoost. We also carried out extensive experiments to fine-tune the hyperparameters and achieve their best configuration.
 
+![Image](https://github.com/basel-ay/Room-Booking-Chatbot/blob/main/static/screenshots/Classifier%20Scores.png)
+
+Clearly, SVM and Logistic Regression are the top two classifiers on this training data. Although SVM has the best F1 score and test score, its mean cross-validation score is very low. This shows that it has extreme behaviour on this data. Hence we go for logistic regression.
+
 ## Setup
 
 1. Download GloVe vectors from [this](https://nlp.stanford.edu/data/glove.6B.zip) link. Unzip and keep the file **glove.6B.100d.txt** in **models** folder.
